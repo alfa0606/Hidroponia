@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-responsive.css">
+</head>
+<body>
+  
+  <style type="text/css">
+      body{background-color: silver}
+      h3{font-family: times new roman}
+      h2{color:#458b00}
+     h3{color:#458b00}
+    </style>
+   <div class="container">
+       <div class="row">
+           <div class="span12 cor Cinza">
+               <img src="banner.png" width="100%" class="img-responsive">
+           </div>
+       </div>
+   </div>
+    <script src="js/jquery.js">
+    </script>
+    <script src="js/bootstrap.js">
+    </script>
+    <div class="container">
+        <div class="row">
+            <div class="span12 corPreto">
+            <div class="navbar">
+                <div class="navbar-inner">
+                   <div class="container">
+                       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></a>
+                       <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li class="active"><a href="">Login</a></li>
+                            
+                        </ul>
+                       </div>
+                   </div>
+                </div>
+            </div>
+            </div>
+            <div class="span6 corAzul">
+                <center><h2>Hidroponia</h2></center>
+                <br>
+                <center><img src="perfil.jpg" height="1000" width="500"></center>
+            </div>
+            <div class="span6 corAzul">
+                <h3><center>SOBRE</center></h3>
+                <h5>Hidroponia é uma técnica de plantio em que as plantas não ultilizam terra para crecer, envez de terra as raiz das plantas ficam em contato com a água</h5>
+            </div>
+            <div class="span6 corAzul">
+                <h3><center>Ligar</center></h3>
+                <img id="botao1" src="botao1.jpg">
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script>
+        var imagem = $("#botao1");
+        imagem.on("click", function(){
+            imagem.attr("src", "botao2.jpg");
+        });
+
+    </script>
+</body>
+</html>
